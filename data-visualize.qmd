@@ -25,7 +25,7 @@ library(palmerpenguins)
     ```{r}
     ggplot(
       data = penguins, 
-      aes(x = bill_depth_mm, y = bill_length_mm)
+      aes(x = bill_length_mm, y = bill_depth_mm)
     ) + 
       geom_point()
     
